@@ -1,5 +1,5 @@
 <script>
-    let path = window.location.href.replace("https://nasimulhasan513.github.io/classsix", '')
+    let path = location.pathname.slice(1)
     localStorage.setItem('path', '/' + path)
     location.href = 'nasimulhasan513.github.io/classsix'
 </script>
